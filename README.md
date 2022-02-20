@@ -1,8 +1,8 @@
 # Certified Tech Developer - Front II
 
-## Módulo 1: Bem-vindo e introdução ao Javascript em interfaces
 
-<br>
+
+## Módulo 1: Bem-vindo e introdução ao Javascript em interfaces
 
 ### Aula 1: Boas vindas
 <small>21 de fevereiro 2022 - segunda-feira</small>
@@ -13,8 +13,6 @@ Fornecer uma abordagem do que será apresentado no módulo e uma breve revisão 
 - [ ] Origem do Javascript
 - [ ] DevTools: Console
 - [ ] Integrando Javascript em um documento HTML
-
-<br>
 
 ### Aula 2: Introdução ao Javascript em interfaces
 <small>22 de fevereiro 2022 - terça-feira</small>
@@ -31,8 +29,6 @@ Apresentar os recursos do Chrome Devtools a partir de uma implementação de fun
 
 O módulo é dedicado à manipulação de elementos HTML em um site.
 
-<br>
-
 ### Aula 3: Introdução ao DOM
 <small>23 de fevereiro 2022 - terça-feira</small>
 
@@ -41,8 +37,6 @@ Compreender o DOM (Document Object Mode) para começar a manipular seus elemento
 - [ ] Objeto Window
 - [ ] Objeto Document
 - [ ] Selecionando elementos
-
-<br>
 
 ### Aula 4: Modificar elementos com Javascript
 <small>07 de março 2022 - segunda-feira</small>
@@ -53,8 +47,6 @@ O conhecimento sobre manipulação do DOM é expandido, mas desta vez trabalhand
 - [ ] Template literal
 - [ ] Propriedade style
 - [ ] Propriedade `classList`
-
-<br>
 
 ### Aula 5: Trabalhando com nós
 <small>08 de março 2022 - terça-feira</small>
@@ -75,19 +67,16 @@ Compreender o que são nós, quais recursos e como utilizá-los para manipular o
 
 ## Módulo 3: Web reativa
  
- Com base na interação do usuário, acione diversos recursos para gerar dinamismo a uma aplicação web.
-
- <br>
+Com base na interação do usuário, acione diversos recursos para gerar dinamismo a uma aplicação web.
 
 ### Aula 6: Revisão + Introdução a eventos
 <small>09 de março 2022 - quarta-feira</small>
 
- Compreender a parte dinâmica do Javascript, introdução a programação reativa.
+Compreender a parte dinâmica do Javascript, introdução a programação reativa.
 
- <br>
 
 ### Aula 7: Eventos
-<smal>14 de março 2022 - segunda-feira</small>
+<small>14 de março 2022 - segunda-feira</small>
 
 Estudar como podemos acionar diferentes procedimentos com base nas interações que o usuário tem com os elementos da aplicação web.
 
@@ -107,8 +96,6 @@ Eventos que disparam funções.
 
 Tendo trabalhado com os elementos de formulário, chega hora de validar os dados com os recursos ensinados anteriormente.
 
-<br>
-
 ### Aula 9: Primeira entrega
 <smal>16 de março 2022 - quarta-feira</small>
 
@@ -117,8 +104,6 @@ Revisão dos tópicos vistos e apresentação dos recursos do produto entregáve
 - [ ] Método de entrega
 - [ ] Forma de avaliação
 - [ ] Requisitos de entrega
-
-<br>
 
 ### Aula 10: Formulários I
 <small>21 de março 2022 - segunda-feira</small>
@@ -142,8 +127,6 @@ Como capturar os elementos de um formulário e manipular seus valores.
     - [ ] `concat()`
     - [ ] `replace()`
 
-<br>
-
 ### Aula 11: Formulários II - Como validar?
 <small>22 de março 2022 - terça-feira</small>
 
@@ -166,8 +149,6 @@ Compreenda quais eventos podem ser utilizados na interação do usuário e envia
     - [ ] `query.has()`
     - [ ] `query.get()`
 
-<br>
-
 ### Aula 12: JSON e storage
 <small>23 de março 2022 - quarta-feira</small>
 
@@ -177,8 +158,6 @@ Compreender a importância do JSON na comunicação web e como podemos armazenar
     - [ ] JSON
 - [ ] Session Storage e Local Storage
 - [ ] Praticando em um formulário de login
-
-<br>
 
 ### Aula 13: Revisão + Aplicativo To-Do
 <small>28 de março 2022 - segunda-feira</small>
@@ -190,8 +169,6 @@ Apresentação do projeto integrador.
 ## Módulo 5: Assincronismo e APIs
 
 Entendendo as particularidades das requisições assíncronas e aproveitando as vantagens de consumir APIs (Application Programming Interface).
-
-<br>
 
 ### Aula 14: Introdução às requisições assíncronas
 <small>29 de março 2022 - terça-feira</small>
@@ -206,8 +183,6 @@ Revisão sobre o que são requisições assíncronas e compreensão de como func
 - [ ] Métodos HTTP
 - [ ] Status (200, 300, 400, 500)
 
-<br>
-
 ### Aula 15: API(s) I
 <small>30 de março 2022 - quarta-feira</small>
 
@@ -220,8 +195,6 @@ Compreender o que é uma API e conhecer os principais recursos que o Javascript 
 - [ ] `try`, `catch`, `finally`
 - [ ] APIs públicas
 
-<br>
-
 ### Aula 16: API(s) II
 <small>04 de abril 2022 - segunda-feira</small>
 
@@ -233,21 +206,15 @@ Explorar os recursos da linguagem Javascript responsáveis por enviar e receber 
     - [ ] Método `DELETE`
 - [ ] Postman
 
-<br>
-
 ### Aula 17: App To-Do - Documentação
 <small>05 de abril 2022 - terça-feira</small>
 
 Documentando a aplicação To-Do.
 
-<br>
-
 ### Aula 18: App To-Do - Fluxo de trabalho
 <small>06 de abril 2022 - quarta-feira</small>
 
 Definindo as funcionalidades da aplicação To-Do.
-
-<br>
 
 ### Aula 19: App To-Do: Segurança
 <small>11 de abril 2022 - segunda-feira</small>
@@ -258,16 +225,12 @@ Operações de CRUD (Create, Read, Update e Delete); Importância e conceitos so
 
 ## Módulo 6: Prática de implementação, animações e importação de bibliotecas
 
-Colocar em prática os últimos tópicos aprendidos sobre o aplicativo de tarefas (To-Do). Serão explorados o uso de animações, importação e utilização de bibliotecas de terceiros para enriquecer a experiência do usuário ao navegar na aplicação web.
-
-<br>
+Colocar em prática os últimos tópicos aprendidos sobre o aplicativo de tarefas (To-Do). Serão explorados o uso de animações, importação e utilização de bibliotecas de terceiros para enriquecer a experiência do usuário ao navegar na aplicação web
 
 ### Aula 22: To-Do App - MVP
 <small>12 de abril 2022 - terça-feira</small>
 
 Apresentação do projeto integrador. Prática de apresentação de um projeto.
-
-<br>
 
 ### Aula 23: Animações
 <small>13 de abril 2022 - quarta-feira</small>
@@ -277,21 +240,15 @@ Estimular formas criativas de uso dos recursos de animação anteriormente abord
 - [ ] Animações CSS e eventos
 - [ ] Tela de pré-carregamento
 
-<br>
-
 ### Aula 24:  To-Do App: Melhorias na experiência do usuário (UX)
 <small>18 de abril 2022 - segunda-feira</small>
 
 Register spinner. Login spinner. Tasks skeleton.
 
-<br>
-
 ### Aula 25: Avaliação final
 <small>19 de abril 2022 - terça-feira</small>
 
 Aula dedicada à segunda e última avaliação da disciplina.
-
-<br>
 
 ### Aula 26: Bibliotecas
 <small>20 de abril 2022 - quarta-feira</small>
@@ -304,3 +261,7 @@ Apresentar exemplos de bibliotecas de terceiros mais populares e compreender o p
     - [ ] Anime.js
     - [ ] AOS
 - [ ] Introdução ao Framework React
+
+<br><br>
+
+**Nota:** O calendário de aulas poderá sofrer alterações sempre que necessários, portanto serve apenas como uma orientação do plano de curso para nosso cronograma interno.
