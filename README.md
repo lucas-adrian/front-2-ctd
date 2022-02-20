@@ -1,92 +1,306 @@
-# ctd-frontII
+# Certified Tech Developer - Front II
 
-Código fonte das aulas de Front II da formação Certified Tech Develper no período de fevereiro à abril de 2022.
+## Módulo 1: Bem-vindo e introdução ao Javascript em interfaces
 
-## Getting started
+<br>
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+### Aula 1: Boas vindas
+<small>21 de fevereiro 2022 - segunda-feira</small>
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+Fornecer uma abordagem do que será apresentado no módulo e uma breve revisão dos principais tópicos do Javascript aplicado em interface web.
 
-## Add your files
+- [ ] Introdução a disciplina
+- [ ] Origem do Javascript
+- [ ] DevTools: Console
+- [ ] Integrando Javascript em um documento HTML
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+<br>
 
-```
-cd existing_repo
-git remote add origin https://gitlab.com/wssantanna/ctd-frontii.git
-git branch -M main
-git push -uf origin main
-```
+### Aula 2: Introdução ao Javascript em interfaces
+<small>22 de fevereiro 2022 - terça-feira</small>
 
-## Integrate with your tools
+Apresentar os recursos do Chrome Devtools a partir de uma implementação de funcionalidades com a linguagem Javascript.
 
-- [ ] [Set up project integrations](https://gitlab.com/wssantanna/ctd-frontii/-/settings/integrations)
+- `alert()`, `prompt()` e `confirm()`
+- `for...in`
+- `for...of`
 
-## Collaborate with your team
+<br>
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+## Módulo 2: Manipulando o DOM
 
-## Test and Deploy
+O módulo é dedicado à manipulação de elementos HTML em um site.
 
-Use the built-in continuous integration in GitLab.
+<br>
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+### Aula 3: Introdução ao DOM
+<small>23 de fevereiro 2022 - terça-feira</small>
 
-***
+Compreender o DOM (Document Object Mode) para começar a manipular seus elementos.
 
-# Editing this README
+- [ ] Objeto Window
+- [ ] Objeto Document
+- [ ] Selecionando elementos
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!).  Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
+<br>
 
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+### Aula 4: Modificar elementos com Javascript
+<small>07 de março 2022 - segunda-feira</small>
 
-## Name
-Choose a self-explaining name for your project.
+O conhecimento sobre manipulação do DOM é expandido, mas desta vez trabalhando com estilos dos elementos do documento.
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+- [ ] Manipulando o DOM
+- [ ] Template literal
+- [ ] Propriedade style
+- [ ] Propriedade `classList`
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+<br>
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+### Aula 5: Trabalhando com nós
+<small>08 de março 2022 - terça-feira</small>
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+Compreender o que são nós, quais recursos e como utilizá-los para manipular os nós.  
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+- [ ] Nós
+    - [ ] Criar 
+    - [ ] Adicionar
+    - [ ] Remover
+- [ ] Manipulando atributos
+    - [ ] `getAttribute()`
+    - [ ] `setAttribute()`
+    - [ ] `hasAttribute()`
+    - [ ] `removeAttribute()`
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+<br>
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+## Módulo 3: Web reativa
+ 
+ Com base na interação do usuário, acione diversos recursos para gerar dinamismo a uma aplicação web.
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+ <br>
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+### Aula 6: Revisão + Introdução a eventos
+<small>09 de março 2022 - quarta-feira</small>
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+ Compreender a parte dinâmica do Javascript, introdução a programação reativa.
 
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+ <br>
 
-## License
-For open source projects, say how it is licensed.
+### Aula 7: Eventos
+<smal>14 de março 2022 - segunda-feira</small>
 
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+Estudar como podemos acionar diferentes procedimentos com base nas interações que o usuário tem com os elementos da aplicação web.
+
+- [ ] Quais são os eventos?
+    - [ ] Eventos do mouse
+    - [ ] Eventos do teclado
+    - [ ] Eventos de tempo
+
+### Aula 8: Disparando eventos
+<smal>15 de março 2022 - terça-feira</small>
+
+Eventos que disparam funções.
+
+<br>
+
+## Módulo 4: Validação do lado do cliente
+
+Tendo trabalhado com os elementos de formulário, chega hora de validar os dados com os recursos ensinados anteriormente.
+
+<br>
+
+### Aula 9: Primeira entrega
+<smal>16 de março 2022 - quarta-feira</small>
+
+Revisão dos tópicos vistos e apresentação dos recursos do produto entregável (avaliação).
+
+- [ ] Método de entrega
+- [ ] Forma de avaliação
+- [ ] Requisitos de entrega
+
+<br>
+
+### Aula 10: Formulários I
+<small>21 de março 2022 - segunda-feira</small>
+
+Como capturar os elementos de um formulário e manipular seus valores.
+
+- [ ] Anteriormente em Programação Imperativa
+    - [ ] Objetos literais
+    - [ ] Métodos de strings
+- [ ] Obtendo dados de um formulário
+    - [ ] Label
+    - [ ] Input (value)
+    - [ ] Textarea
+    - [ ] Select
+    - [ ] Radio button
+    - [ ] Check box
+- [ ] Outros métodos de strings
+    - [ ] `trim()`
+    - [ ] `toUpperCase()`
+    - [ ] `toLowerCase()`
+    - [ ] `concat()`
+    - [ ] `replace()`
+
+<br>
+
+### Aula 11: Formulários II - Como validar?
+<small>22 de março 2022 - terça-feira</small>
+
+Compreenda quais eventos podem ser utilizados na interação do usuário e enviar respostas visuais para validar os dados inseridos.
+
+- [ ] Eventos de formulário
+    - [ ] `focus()`
+    - [ ] `blur()`
+    - [ ] `change()`
+    - [ ] `submit()`
+    - [ ] `preventDefault()`
+- [ ] Validação do cliente
+- [ ] Validação assíncrona
+    - [ ] `setTimeOut()` para imitar “promises”
+- [ ] Objeto Location
+    - [ ] `href`
+    - [ ] `reload()`
+    - [ ] `search()`
+    - [ ] `URLSearchParams`
+    - [ ] `query.has()`
+    - [ ] `query.get()`
+
+<br>
+
+### Aula 12: JSON e storage
+<small>23 de março 2022 - quarta-feira</small>
+
+Compreender a importância do JSON na comunicação web e como podemos armazenar informações no navegador.
+
+- [ ] Anteriormente em Programação Imperativa
+    - [ ] JSON
+- [ ] Session Storage e Local Storage
+- [ ] Praticando em um formulário de login
+
+<br>
+
+### Aula 13: Revisão + Aplicativo To-Do
+<small>28 de março 2022 - segunda-feira</small>
+
+Apresentação do projeto integrador.
+
+<br>
+
+## Módulo 5: Assincronismo e APIs
+
+Entendendo as particularidades das requisições assíncronas e aproveitando as vantagens de consumir APIs (Application Programming Interface).
+
+<br>
+
+### Aula 14: Introdução às requisições assíncronas
+<small>29 de março 2022 - terça-feira</small>
+
+Revisão sobre o que são requisições assíncronas e compreensão de como funciona a comunicação web.
+
+- [ ] Anteriormente em Programação Imperativa
+    - [ ] Promessas
+    - [ ] `async/await`
+    - [ ] Arquitetura cliente-servidor
+- [ ] `Request` e `Response`
+- [ ] Métodos HTTP
+- [ ] Status (200, 300, 400, 500)
+
+<br>
+
+### Aula 15: API(s) I
+<small>30 de março 2022 - quarta-feira</small>
+
+Compreender o que é uma API e conhecer os principais recursos que o Javascript oferece de forma nativa para o desenvolvimento de aplicações.
+
+- [ ] O que é API?
+    - [ ] REST
+    - [ ] Documentação
+- [ ] Fetch (GET)
+- [ ] `try`, `catch`, `finally`
+- [ ] APIs públicas
+
+<br>
+
+### Aula 16: API(s) II
+<small>04 de abril 2022 - segunda-feira</small>
+
+Explorar os recursos da linguagem Javascript responsáveis por enviar e receber dados de uma API.
+
+- [ ] Fetch
+    - [ ] Método `POST`
+    - [ ] Método `PUT`
+    - [ ] Método `DELETE`
+- [ ] Postman
+
+<br>
+
+### Aula 17: App To-Do - Documentação
+<small>05 de abril 2022 - terça-feira</small>
+
+Documentando a aplicação To-Do.
+
+<br>
+
+### Aula 18: App To-Do - Fluxo de trabalho
+<small>06 de abril 2022 - quarta-feira</small>
+
+Definindo as funcionalidades da aplicação To-Do.
+
+<br>
+
+### Aula 19: App To-Do: Segurança
+<small>11 de abril 2022 - segunda-feira</small>
+
+Operações de CRUD (Create, Read, Update e Delete); Importância e conceitos sobre o Token JWT.
+
+<br>
+
+## Módulo 6: Prática de implementação, animações e importação de bibliotecas
+
+Colocar em prática os últimos tópicos aprendidos sobre o aplicativo de tarefas (To-Do). Serão explorados o uso de animações, importação e utilização de bibliotecas de terceiros para enriquecer a experiência do usuário ao navegar na aplicação web.
+
+<br>
+
+### Aula 22: To-Do App - MVP
+<small>12 de abril 2022 - terça-feira</small>
+
+Apresentação do projeto integrador. Prática de apresentação de um projeto.
+
+<br>
+
+### Aula 23: Animações
+<small>13 de abril 2022 - quarta-feira</small>
+
+Estimular formas criativas de uso dos recursos de animação anteriormente abordados, para melhorar a experiência do usuário na aplicação. 
+
+- [ ] Animações CSS e eventos
+- [ ] Tela de pré-carregamento
+
+<br>
+
+### Aula 24:  To-Do App: Melhorias na experiência do usuário (UX)
+<small>18 de abril 2022 - segunda-feira</small>
+
+Register spinner. Login spinner. Tasks skeleton.
+
+<br>
+
+### Aula 25: Avaliação final
+<small>19 de abril 2022 - terça-feira</small>
+
+Aula dedicada à segunda e última avaliação da disciplina.
+
+<br>
+
+### Aula 26: Bibliotecas
+<small>20 de abril 2022 - quarta-feira</small>
+
+Apresentar exemplos de bibliotecas de terceiros mais populares e compreender o processo de instalação na aplicação. Apresentação sobre React, assim como recursos e vantagens do framework. 
+
+- [ ] Bibliotecas
+    - [ ] Chart.js
+    - [ ] Sweet Alert 2
+    - [ ] Anime.js
+    - [ ] AOS
+- [ ] Introdução ao Framework React
