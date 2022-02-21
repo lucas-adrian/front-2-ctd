@@ -9,10 +9,10 @@
 
 Fornecer uma abordagem do que será apresentado no módulo e uma breve revisão dos principais tópicos do Javascript aplicado em interface web.
 
-- [ ] Introdução a disciplina
-- [ ] Origem do Javascript
-- [ ] DevTools: Console
-- [ ] Integrando Javascript em um documento HTML
+- [x] Introdução a disciplina
+- [x] Origem do Javascript
+- [x] DevTools: Console
+- [x] Integrando Javascript em um documento HTML
 
 ### Aula 2: Introdução ao Javascript em interfaces
 <small>22 de fevereiro 2022 - terça-feira</small>
