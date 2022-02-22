@@ -4,24 +4,35 @@
 
 ## Módulo 1: Bem-vindo e introdução ao Javascript em interfaces
 
-### Aula 1: Boas vindas
+### [Aula 1: Boas vindas](https://gitlab.com/wssantanna/ctd-frontii/-/tree/main/01)
 <small>21 de fevereiro 2022 - segunda-feira</small>
 
 Fornecer uma abordagem do que será apresentado no módulo e uma breve revisão dos principais tópicos do Javascript aplicado em interface web.
 
+**Assíncrona**
+
 - [x] Introdução a disciplina
 - [x] Origem do Javascript
+
+**Síncrona**
+
 - [x] DevTools: Console
 - [x] Integrando Javascript em um documento HTML
 
-### Aula 2: Introdução ao Javascript em interfaces
+### [Aula 2: Introdução ao Javascript em interfaces](https://gitlab.com/wssantanna/ctd-frontii/-/tree/main/02)
 <small>22 de fevereiro 2022 - terça-feira</small>
 
 Apresentar os recursos do Chrome Devtools a partir de uma implementação de funcionalidades com a linguagem Javascript.
 
-- `alert()`, `prompt()` e `confirm()`
-- `for...in`
-- `for...of`
+**Assíncrona**
+
+- [x] `for...in`
+- [x] `for...of`
+
+**Síncrona**
+
+- [x] `alert()`, `prompt()` e `confirm()`
+- [x] `if... else...` *Veremos com mais calma esse recurso na próxima aula, mas foi apresentada uma visão minimalista do recurso.
 
 <br>
 
