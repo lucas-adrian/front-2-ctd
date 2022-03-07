@@ -7,6 +7,7 @@ A atividade consiste em jogar uma partida Jogo da Velha, definindo uma pessoa pa
 1. Defina um aluno para ser o adversário identificado como X.
 2. Defina outro aluno para ser o adversário indentificado com O.
 3. Utilizando os métodos seletores selecione a coordenada e adicione X ou O de acordo com sua identificação.
+3.1. Crie os estilos no arquivo style.css. É importante manter os mesmos nomes de classe sujerida pelo professor.
 
 <br><br>
 
