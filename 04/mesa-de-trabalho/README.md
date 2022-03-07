@@ -1,4 +1,4 @@
-# Mesa de trabalhor
+# Mesa de trabalho
 
 A atividade consiste em manipular o DOM da lista de itens. Basicamente irá adicionar e remover informações conforme o comentário de cada item.
         
