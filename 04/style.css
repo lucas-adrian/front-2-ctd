@@ -39,6 +39,9 @@ body {
     transform: scale(1.05);
 }
 
+/*
+    Será utilizada no documento JavaScript
+*/
 .selecionado {
     background-color: blue;
     color: lightskyblue;
