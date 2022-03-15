@@ -5,14 +5,19 @@ A atividade consiste em devenvolver uma prova de conceito de uma partida de Jogo
 ## Instruções
 
 1. Eventos do Mouse
+
 1.1. Selecione cada elemento conforme sua coordenada.
+
 2.2. Quando o usuário der um `click` o valor da coordenada deve ser alterado para `X`.
+
 3.3. Quando o usuário der um `duplo click` o valor da coordenada deve ser alterado para `O`.
 
 2. Eventos do teclado
+
 2.1. Quando o usuário pressionar a tecla ESPAÇO irá:
     - Irá remover a `<div id="telaInicial">`. 
-2.2. Quando o usuário pressionar a tecla ESC irá:
+
+2.2. Quando o usuário pressionar a tecla ESPAÇO irá:
 - Irá adicionar a `<div id="telaInicial">`.
 
 
