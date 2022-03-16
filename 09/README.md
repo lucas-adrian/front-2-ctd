@@ -15,6 +15,7 @@ A atividade consiste em manipular o DOM da lista de itens. Basicamente irá cria
 4. **(20pts)** Um boxe de texto irá acompanhar o cursor do mouse.
         
 4.1. O texto deverá mudar quando o cursor do mouse sobrepor qualquer uma das sessão do site:
+
     - Receberá o texto `Bem vindo`.   
     - Receberá o texto `Sobre mim`.
     - Receberá o texto `Contatos`.
