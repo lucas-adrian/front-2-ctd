@@ -214,25 +214,25 @@ Revisão dos tópicos vistos e apresentação dos recursos do produto entregáve
 - [x] Forma de avaliação
 - [x] Requisitos de entrega
 
-### Aula 10: Formulários I
+### [Aula 10: Formulários I](https://gitlab.com/wssantanna/ctd-frontii/-/tree/main/10)
 <small>21 de março 2022 - segunda-feira</small>
 
 Como capturar os elementos de um formulário e manipular seus valores.
 
 - [ ] Anteriormente em Programação Imperativa
     - [ ] Objetos literais
-    - [ ] Métodos de strings
-- [ ] Obtendo dados de um formulário
-    - [ ] Label
-    - [ ] Input (value)
+    - [x] Métodos de strings
+- [-] Obtendo dados de um formulário
+    - [x] Label
+    - [x] Input (value)
     - [ ] Textarea
     - [ ] Select
     - [ ] Radio button
     - [ ] Check box
-- [ ] Outros métodos de strings
-    - [ ] `trim()`
-    - [ ] `toUpperCase()`
-    - [ ] `toLowerCase()`
+- [-] Outros métodos de strings
+    - [x] `trim()`
+    - [x] `toUpperCase()`
+    - [x] `toLowerCase()`
     - [ ] `concat()`
     - [ ] `replace()`
 
