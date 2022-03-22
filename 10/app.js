@@ -1,20 +1,31 @@
 
 // 1. Seleção do formulário
-var formulario = document.querySelector("#formularioDeCadastro");
+var formulario = document.getElementById('formularioDeCadastro');
 
-// 2. Captura o evento de envio do formulário e disparar a rotina
-formulario.addEventListener("submit", function (evento) {
+// 2. Selação do campo
+var campoTelefone = document.getElementById('telefone');
 
-    // Captura o valor do input
-    var telefoneSemTratamento = evento.target[0].value;
+// 3. Captura o evento de envio do formulário e disparar a rotina
 
-    // Removi os espaços
-    var telefoneSemEspacos = telefoneSemTratamento.replace(/\s/g, "");
-
-    // Removi os caracteres especiais e letras
-    var telefoneApenasNumeros = telefoneSemEspacos.replace(/\D/g, "");
-
-    // Apresento o valor a partir de um popup alert()
-    alert(telefoneApenasNumeros);
+formulario.addEventListener('submit', function() {
     
+    var valorDoCampoTelefoneSemTratamento = campoTelefone.value;
+
+    // \s = espaços
+    // \D = para números
+    var valorDoCampoTelefoneSemEspacos = valorDoCampoTelefoneSemTratamento
+    .replace(/\s/g, '');
+
+    var valorDoCampoTelefoneSemCaracteres = valorDoCampoTelefoneSemEspacos
+    .replace(/\D/g, '');
+
+    var textoMinusculo = valorDoCampoTelefoneSemTratamento.toLowerCase();
+    var textoMaiusculo = valorDoCampoTelefoneSemTratamento.toUpperCase();
+
+    // 3.1. Capturando os dados do formulário
+    // alert(`Valor sem tratamento: ${valorDoCampoTelefoneSemTratamento}`);
+    alert(`Valor tratamento: ${valorDoCampoTelefoneSemTratamento}`);
+
+    alert(`Valor tratado ${valorDoCampoTelefoneSemCaracteres}`);
+
 });
