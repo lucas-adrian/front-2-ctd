@@ -1,85 +1,85 @@
 
-// 1. Seleciona o formulário
+
+// 1. Seleção do campo nome
 var campoNome = document.querySelector('#nome');
 
-// 2. Cria a rotina que será disparada após o envio do formulário
-function validarEnviarDadosDoFormulario(evento) {
+/*
+    Eventos de formulário:
+        - focus
+        - blur
+        - change
+*/
+// 2. Captura o evento do campo nome
+campoNome.addEventListener('blur', function(evento) {
+
+    var valorCampoNome = evento.target.value.trim();
+
+    // Resultados de validação para apresentação das mensagens para usuário
+    // 1. Valor do campo está vazio
+    var campoEstaVazio = estaVazio(valorCampoNome);
+    // 2. Valor do campo possui mais de dez caracteres
+    var campoPossuiMaisDeDezCaracteres = possuiMaisDeDezCaracteres(valorCampoNome);
+    // 3. Valor do campo possui caracter especial
+    var campoPossuiCaracteresEspeciais = possuiCaracteresEspeciais(valorCampoNome);
+    // 4. Valor do campo possui números
+    var campoPossuiNumeros = possuiNumeros(valorCampoNome);
     
-    // Captura do valor do campo nome
-    var valorDoCampoNome = evento.target.value.trim();
-    
-    // Resultado das condicionais de validação (retornará true ou false)
-    var campoEstaVazio = estaVazio(valorDoCampoNome);
-    var campoPossuiNumeros = possuiNumeros(valorDoCampoNome);
-    var campoPossuiCaracteresEspeciais = possuiCaracteresEspeciais(valorDoCampoNome);
-    var campoPossuiMaisDeVinteCaracteres = possuiMaisDeVinteCaracteres(valorDoCampoNome)
-    
-    // Condicionais de validação para apresentação das mensagens para o usuário
     if(campoEstaVazio) {
-        console.log('Campo é obrigatório e precisa ser preenchido!');
+        console.log('O campo está vazio');
     }
-    else if (campoPossuiMaisDeVinteCaracteres) {
-        console.log('Campo não pode ultrapassar vinte caracteres');
+    else if(campoPossuiMaisDeDezCaracteres) {
+        alert('O campo ultrapassou o limite de caracteres');
     }
     else if(campoPossuiNumeros) {
-        console.log('Campo não pode ter números!');
+        alert('O campo não permite o uso de números');
     }
     else if(campoPossuiCaracteresEspeciais) {
-        console.log('Campo não pode conter caracteres especiais');
+        alert('O campo não permite o uso de caracteres especiais');
     }
     else {
-        console.log('Está tudo ok para envio');
+        alert('Tudo ok, pode enviar!');
     }
-        
-}
 
-// 2.1. Implementação das validações
+});
 
-// 2.1.1. Verifica se o campo esta vazio
+// 1. Valor do campo está vazio
 function estaVazio(valorDoCampo) {
 
-    var respostaDaValidacao = valorDoCampo === '';
+    var valorVazio = '';
+
+    var respostaDaValidacao = valorDoCampo === valorVazio;
+
+    return respostaDaValidacao;
+}
+
+// 2. Valor do campo possui mais de dez caracteres
+function possuiMaisDeDezCaracteres(valorDoCampo) {
     
-    return respostaDaValidacao;
-}
+    var numeroDeCaracteresDoCampoValor = valorDoCampo.length;
+    var limiteDeCaracteres = 10;
 
-// 2.1.2. Verifica se o campo possui números
-function possuiNumeros(valorDoCampo) {
-
-    var expressaoRegular = /\d+/g;
-        
-    var respostaDaValidacao = expressaoRegular.test(valorDoCampo);
+    var respostaDaValidacao = numeroDeCaracteresDoCampoValor > limiteDeCaracteres;
 
     return respostaDaValidacao;
 }
 
-// 2.1.3. Verifica se o campo possui alguns caracteres especiais
+// 3. Valor do campo possui caracter especial
 function possuiCaracteresEspeciais(valorDoCampo) {
 
-    var expressaoRegular = /[$*&@#]/g;
-        
+    var expressaoRegular = /\W/g;
+
     var respostaDaValidacao = expressaoRegular.test(valorDoCampo);
 
     return respostaDaValidacao;
 }
 
-// 2.1.4. Verifica se o campo possui no máximo vinte caracteres
-function possuiMaisDeVinteCaracteres(valorDoCampo) {
+// 4. Valor do campo possui números
+function possuiNumeros(valorDoCampo) {
 
-    var numeroDeCaracteres = valorDoCampo.length;
+    var expressaoRegular = /\d/g;
 
-    var limiteDeCaracteres = 20;
-
-    var respostaDaValidacao = numeroDeCaracteres > limiteDeCaracteres;
+    var respostaDaValidacao = expressaoRegular.test(valorDoCampo);
 
     return respostaDaValidacao;
-    
-}
 
-// 3. Captura o evento de envio dos dados do formulário e executar a rotina
-/*
-    focus
-    blur
-    change
-*/
-campoNome.addEventListener('blur', validarEnviarDadosDoFormulario);
+}
