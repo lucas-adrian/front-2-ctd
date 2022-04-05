@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula 11 - Mesa de trabalho</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Aula 13 - Revisão</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     
 
     <div class="l-app">
-        <article>
+        <main>
             <h1 class="h1">Adicionar novo item</h1>
-            <form id="formularioDeCadastro">
+            <form name="formularioDeCadastro">
                 <!-- 
                     O elemento <label> é uma tag semântica,
                     adiciona um rótulo a cada <input> criado.
@@ -25,8 +25,8 @@
                 <input class="c-form__campo u-my" name="item" type="text" placeholder="Digite um novo item" required>
                 <button class="c-form__botao u-my" type="submit" disabled>Adicionar item</button>
             </form>
-        </article>
-        <aside>
+        </main>
+        <article>
             <h2 class="h1">Lista de itens cadastrados</h2>
             <ul class="c-lista">
                 <!-- 
@@ -37,10 +37,10 @@
                 -->
                 <li class="c-lista__item">&#128533; Não há itens cadastrados</li>
             </ul>
-        </aside>
+        </article>
     </div>
     
-    <script type="text/javascript" src="./assets/js/main.js"></script>
+    <script type="text/javascript" src="./app.js"></script>
 
 </body>
 </html>
