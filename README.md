@@ -285,17 +285,26 @@ Compreenda quais eventos podem ser utilizados na interação do usuário e envia
 - [x] Expressões regulares
 
 
-### Aula 12: JSON e storage
+### [Aula 12: JSON e storage](https://gitlab.com/wssantanna/ctd-frontii/-/tree/main/12)
 <small>23 de março 2022 - quarta-feira</small>
 
 Compreender a importância do JSON na comunicação web e como podemos armazenar informações no navegador.
 
-- [ ] Anteriormente em Programação Imperativa
-    - [ ] JSON
-- [ ] Session Storage e Local Storage
-- [ ] Praticando em um formulário de login
+**Assíncrona**
 
-### Aula 13: Revisão + Aplicativo To-Do
+- [x] Anteriormente em Programação Imperativa
+    - [x] JSON
+- [x] Session Storage e Local Storage
+
+
+**Síncrona**
+
+- [x] Anteriormente em Programação Imperativa
+    - [x] JSON
+- [x] Session Storage e Local Storage
+- [x] Praticando em um formulário de login
+
+### [Aula 13: Revisão + Aplicativo To-Do](https://gitlab.com/wssantanna/ctd-frontii/-/tree/main/13)
 <small>28 de março 2022 - segunda-feira</small>
 
 Apresentação do projeto integrador.
@@ -306,41 +315,71 @@ Apresentação do projeto integrador.
 
 Entendendo as particularidades das requisições assíncronas e aproveitando as vantagens de consumir APIs (Application Programming Interface).
 
-### Aula 14: Introdução às requisições assíncronas
+### [Aula 14: Introdução às requisições assíncronas](https://gitlab.com/wssantanna/ctd-frontii/-/tree/main/14)
 <small>29 de março 2022 - terça-feira</small>
 
 Revisão sobre o que são requisições assíncronas e compreensão de como funciona a comunicação web.
 
-- [ ] Anteriormente em Programação Imperativa
-    - [ ] Promessas
-    - [ ] `async/await`
-    - [ ] Arquitetura cliente-servidor
-- [ ] `Request` e `Response`
-- [ ] Métodos HTTP
-- [ ] Status (200, 300, 400, 500)
+**Assíncrono**
 
-### Aula 15: API(s) I
+- [-] Anteriormente em Programação Imperativa
+    - [x] Promessas
+    - [ ] `async/await`
+    - [x] Arquitetura cliente-servidor
+- [s] Status (200, 300, 400, 500)
+
+**Síncrono**
+
+- [x] `Request` e `Response`
+    - [x] Método HTTP `GET`
+    - [x] `fetch()`
+    - [x] `then()`
+
+
+### [Aula 15: API(s) I](https://gitlab.com/wssantanna/ctd-frontii/-/tree/main/15)
 <small>30 de março 2022 - quarta-feira</small>
 
 Compreender o que é uma API e conhecer os principais recursos que o Javascript oferece de forma nativa para o desenvolvimento de aplicações.
 
-- [ ] O que é API?
-    - [ ] REST
-    - [ ] Documentação
-- [ ] Fetch (GET)
-- [ ] `try`, `catch`, `finally`
-- [ ] APIs públicas
+**Assíncrono**
 
-### Aula 16: API(s) II
+- [x] O que é API?
+    - [x] REST
+    - [x] Documentação
+- [x] Fetch (GET)
+- [x] `try`, `catch`, `finally`
+- [x] APIs públicas
+
+**Síncrona**
+
+- [x] O que é API?
+    - [x] REST
+    - [x] Documentação
+- [x] Fetch (GET)
+- [x] APIs públicas
+
+
+### [Aula 16: API(s) II](https://gitlab.com/wssantanna/ctd-frontii/-/tree/main/16)
 <small>04 de abril 2022 - segunda-feira</small>
 
 Explorar os recursos da linguagem Javascript responsáveis por enviar e receber dados de uma API.
 
-- [ ] Fetch
-    - [ ] Método `POST`
-    - [ ] Método `PUT`
-    - [ ] Método `DELETE`
+**Assíncrono**
+
+- [x] Fetch
+    - [x] Método `POST`
+    - [x] Método `PUT`
+    - [x] Método `DELETE`
 - [ ] Postman
+
+**Síncrono**
+
+- [x] Fetch
+    - [x] Método `GET`
+    - [x] Método `POST`
+    - [x] Método `PUT`
+    - [x] Método `PATCH`
+    - [x] Método `DELETE`
 
 ### Aula 17: App To-Do - Documentação
 <small>05 de abril 2022 - terça-feira</small>
